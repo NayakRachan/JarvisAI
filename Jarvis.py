@@ -22,10 +22,10 @@ engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')  
 engine.setProperty('voice', voices[1].id)  # Use the first voice  
 
-# Set speaking rate (speed)  
+# Set speaking rate (speed)     
 engine.setProperty('rate', 170) 
 
-#spitify setting are here
+#spotify setting are here
 SPOTIPY_CLIENT_ID = "db0efea5b080438f86709fbb97f7fc7d"
 SPOTIPY_CLIENT_SECRET = "b96e3b019c6543a18ab8abe59849d615"
 SPOTIPY_REDIRECT_URI = "http://localhost:8888/callback"
